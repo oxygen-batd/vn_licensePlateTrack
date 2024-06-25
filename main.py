@@ -6,7 +6,7 @@ import torch
 from util import read_license_plate
 
 # Load YOLO model
-model_path = 'models/best_model.pt'
+model_path = 'best_model.pt'
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 license_plates = YOLO(model_path).to(device)
 
@@ -32,7 +32,7 @@ def main():
         p.start()
         processes.append(p)
 
-    video_path = "video/test.mp4"
+    video_path = "test.mp4"
     cap = cv2.VideoCapture(video_path)
 
     # Get video properties
