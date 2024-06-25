@@ -46,7 +46,7 @@ Kết quả trả về (results):
    - Loại giá trị: Tuple.
 
 # Example
-
+https://github.com/oxygen-batd/vn_licensePlateTrack/output_video_test.mp4
 
 
 
